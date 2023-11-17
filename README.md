@@ -57,15 +57,8 @@ Meal log ( number of portions distributed in the last programming)
 
 - HONEYGUARIDAN S56 Planning
 sensor.honeyguaridan_s56_planning
-Base64 CODE:
-exsample "value": "DAABAQweAgENAAQBDR4DAQ4ABAEOHgYB"
-exsample :       hour     minute   portion   planned
-exsample Plan 1: 00001100 00000000 00000001 00000001 12:00 1 meal portion yes planned
-exsample Plan 2: 00001100 00011110 00000010 00000001 12:30 2 meal portion yes planned
-exsample Plan 3: 00001101 00000000 00000011 00000000 13:00 3 meal portion no planned
-exsample Plan 4: 00001101 00011110 00000100 00000001 13:30 4 meal portion yes planned
-exsample Plan 5: 00001110 00000000 00000101 00000001 14:00 5 meal portion yes planned
-exsample Plan 6: 00001110 00011110 00000110 00000001 14:30 6 meal portion yes planned
+Base64 CODE: https://github.com/Bellavista/Tuya-Local-Honeygaridan-S56/wiki
+
 
 ![image](https://github.com/Bellavista/Tuya-Local-Honeygaridan-S56/assets/46230198/f82b9907-9bc9-4a6c-8863-9cd25ef70b1d)
 
