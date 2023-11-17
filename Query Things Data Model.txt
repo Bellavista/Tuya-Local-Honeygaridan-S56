@@ -1,3 +1,6 @@
+IoT Core
+Query Things Data Model
+
 {
   "result": {
     "model": "{'modelId':'000003ys3u',

@@ -1,0 +1,31 @@
+IoTCore
+Query Device Details in Bulk
+
+{
+  "result": [
+    {
+      "active_time": 1698839473,
+      "category": "cwwsq",
+      "create_time": 1698675956,
+      "custom_name": "Distributore Cibo Gatti",
+      "icon": "smart/icon/ay1543989738995Ij0in/2a9874753784ef33241cdddffe5fc2c6.png",
+      "id": "xxxxxxxxxxxxxxxxxx",
+      "ip": "xxxxxxxxxxx",
+      "is_online": true,
+      "lat": "xxxxxxxx",
+      "local_key": "xxxxxxxxx",
+      "lon": "xxxxxxx",
+      "model": "",
+      "name": "Alimentatore intelligente ",
+      "product_id": "wa8pwmxwnhpujmdq",
+      "product_name": "海龙喂食器S56",
+      "sub": false,
+      "time_zone": "+01:00",
+      "update_time": 1700086317,
+      "uuid": "xxxxxxxxxxxxxxx"
+    }
+  ],
+  "success": true,
+  "t": 1700184155289,
+  "tid": "c9bf471f84e711eea84192c59b34336d"
+}
