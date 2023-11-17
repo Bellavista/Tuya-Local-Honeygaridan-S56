@@ -1,0 +1,111 @@
+Iot Core
+Get the specifications and properties of the device
+
+{
+  "result": {
+    "category": "cwwsq",
+    "functions": [
+      {
+        "code": "meal_plan",
+        "desc": "{}",
+        "name": "喂食计划",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "manual_feed",
+        "desc": "{\"unit\":\"\",\"min\":1,\"max\":6,\"scale\":0,\"step\":1}",
+        "name": "手动喂食",
+        "type": "Integer",
+        "values": "{\"unit\":\"\",\"min\":1,\"max\":6,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "slow_feed",
+        "desc": "{}",
+        "name": "慢放喂食",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "voice_times",
+        "desc": "{\"min\":0,\"max\":10,\"scale\":0,\"step\":1}",
+        "name": "语音播放次数",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":10,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "hour",
+        "desc": "{}",
+        "name": "24小时制",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "style",
+        "desc": "{\"range\":[\"1\",\"2\",\"3\",\"4\",\"5\"]}",
+        "name": "风格",
+        "type": "Enum",
+        "values": "{\"range\":[\"1\",\"2\",\"3\",\"4\",\"5\"]}"
+      }
+    ],
+    "status": [
+      {
+        "code": "meal_plan",
+        "name": "喂食计划",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "manual_feed",
+        "name": "手动喂食",
+        "type": "Integer",
+        "values": "{\"unit\":\"\",\"min\":1,\"max\":6,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "slow_feed",
+        "name": "慢放喂食",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "fault",
+        "name": "故障告警",
+        "type": "Bitmap",
+        "values": "{\"label\":[\"food_run_out\",\"ERR1\",\"ERR3\",\"ERR5\"],\"maxlen\":4}"
+      },
+      {
+        "code": "voice_times",
+        "name": "语音播放次数",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":10,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "record",
+        "name": "喂食记录",
+        "type": "Integer",
+        "values": "{\"unit\":\"\",\"min\":1,\"max\":48,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "hour",
+        "name": "24小时制",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "battery",
+        "name": "备用电池",
+        "type": "Enum",
+        "values": "{\"range\":[\"empty\",\"low\",\"high\",\"full\"]}"
+      },
+      {
+        "code": "style",
+        "name": "风格",
+        "type": "Enum",
+        "values": "{\"range\":[\"1\",\"2\",\"3\",\"4\",\"5\"]}"
+      }
+    ]
+  },
+  "success": true,
+  "t": 1700184647362,
+  "tid": "ef1235c184e811ee9a23cea0a4c732c1"
+}
