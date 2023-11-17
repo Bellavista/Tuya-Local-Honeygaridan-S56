@@ -76,5 +76,5 @@ Vocal message (number of voice message repetitions before food distribution)
 ![image](https://github.com/Bellavista/Tuya-Local-Honeygaridan-S56/assets/46230198/4bf648e4-7db3-47fc-abbc-9c30f9e25342)
 
 
-Thnaks to:
+Thaks to:
 - [@freshcoast] for base64 conversions
