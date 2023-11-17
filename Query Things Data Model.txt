@@ -1,0 +1,92 @@
+{
+  "result": {
+    "model": "{'modelId':'000003ys3u',
+'services':[{'actions':[],
+'code':'','description':'',
+'events':[],
+'name':'默认服务',
+'properties':[
+
+{'abilityId':1,
+'accessMode':'rw',
+'code':'meal_plan',
+'description':'同步到设备端本地，即使设备离线，仍能正常喂食出粮，喂食计划支持6组，共30字节，不足位补零。
+	\\nraw格式约定：按照“周期+时间+喂食份数+开关”来实现本地定时，具体如下
+	\\n1，前7个比特位代表周一到周日，二进制转十六进制，占用一个字节，0代表未设置，1代表设置，如0000001，表示周日生效，转换为16进制就是01
+	\\n2，时间按照小时分钟格式，占用2个字节，分钟和小时，十进制转16进制，如18：50，转为16进制为1232
+	\\n3，喂食份数，范围1-48.占用1个字节，十进制转16进制，如12，转为16进制为0c
+	\\n4，开关，占用1个字节，00表示关闭，01表示开启\\n上述举例，对于APP端时间下发的结果为0112320c01，表示周日，18：50，喂食12份，开启。',
+'extensions':{'iconName':'icon-dp_time3','attribute':'96','trigger':'direct'},
+'name':'喂食计划',
+'typeSpec':{'maxlen':128,'type':'raw'}},
+
+{'abilityId':3,
+'accessMode':'rw',
+'code':'manual_feed',
+'description':'手动喂食份数',
+'extensions':{'iconName':'icon-icon-test13','trigger':'direct'},
+'name':'手动喂食',
+'typeSpec':{'max':6,'min':1,'scale':0,'step':1,'type':'value','typeDefaultValue':1,'unit':''}},
+
+{'abilityId':6,
+'accessMode':'rw',
+'code':'slow_feed',
+'description':'',
+'extensions':{'iconName':'icon-dp_wash','trigger':'direct'},
+'name':'慢放喂食','typeSpec':{'type':'bool','typeDefaultValue':false}},
+
+{'abilityId':14,
+'accessMode':'ro',
+'code':'fault',
+'description':'',
+'extensions':{'iconName':'icon-dp_notice','scope':'fault','trigger':'direct'},
+'name':'故障告警',
+'typeSpec':{'label':['food_run_out','ERR1','ERR3','ERR5'],
+'maxlen':4,'type':'bitmap','typeDefaultValue':0}},
+
+{'abilityId':18,
+'accessMode':'rw',
+'code':'voice_times',
+'description':'',
+'extensions':{'attribute':'224'},
+'name':'语音播放次数',
+'typeSpec':{'max':10,'min':0,'scale':0,'step':1,'type':'value',
+'typeDefaultValue':0}},
+
+{'abilityId':101,
+'accessMode':'ro',
+'code':'record','description':'用于记录喂食份数。每次喂食成功后mcu需要上报喂食份数。面板显示在记录页面。',
+'extensions':{'trigger':'direct'},'name':'喂食记录',
+'typeSpec':{'max':48,'min':1,'scale':0,'step':1,
+'type':'value',
+'typeDefaultValue':1,'unit':''}},
+Query Things Data Model
+
+{'abilityId':102,
+'accessMode':'rw',
+'code':'hour',
+'description':'false为12小时制（默认），true为24小时制',
+'name':'24小时制',
+'typeSpec':{'type':'bool','typeDefaultValue':false}},
+
+{'abilityId':103,
+'accessMode':'ro',
+'code':'battery',
+'description':'',
+'name':'备用电池',
+'typeSpec':{'range':['empty','low','high','full'],
+'type':'enum',
+'typeDefaultValue':'empty'}},
+
+{'abilityId':104,
+'accessMode':'rw',
+'code':'style',
+'description':'',
+'name':'风格',
+'typeSpec':{'range':['1','2','3','4','5'],
+'type':'enum','typeDefaultValue':'1'}}]}]}"
+  },
+  "success": true,
+  "t": 1700182758297,
+  "tid": "890fc13f84e411eea29b36ef545ddf3a"
+}
