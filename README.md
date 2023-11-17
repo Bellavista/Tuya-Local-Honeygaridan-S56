@@ -55,7 +55,6 @@ Meal log ( number of portions distributed in the last programming)
 
 ![image](https://github.com/Bellavista/Tuya-Local-Honeygaridan-S56/assets/46230198/f698234c-d654-46d4-99e2-2913343be9ad)
 
-
 - HONEYGUARIDAN S56 Planning
 sensor.honeyguaridan_s56_planning
 Base64 CODE:
@@ -73,8 +72,8 @@ exsample Plan 6: 00001110 00011110 00000110 00000001 14:30 6 meal portion yes pl
 HONEYGUARIDAN S56 Slow Feeding
 switch.honeyguaridan_s56_slow_feeding
 Slow Feed (motor pause during rotation)
-![image](https://github.com/Bellavista/Tuya-Local-Honeygaridan-S56/assets/46230198/64a3ceb5-4d40-47cd-86ac-1c117880966b)
 
+![image](https://github.com/Bellavista/Tuya-Local-Honeygaridan-S56/assets/46230198/64a3ceb5-4d40-47cd-86ac-1c117880966b)
 
 HONEYGUARIDAN S56 Vocal Message
 number.honeyguaridan_s56_vocal_message
