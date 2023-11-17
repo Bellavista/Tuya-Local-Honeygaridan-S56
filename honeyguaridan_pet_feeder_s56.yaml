@@ -70,7 +70,7 @@ secondary_entities:
             value: "ERR5 - TO DEFINE"
         optional: true
   - entity: number
-    category: diagnostic
+    category: config
     default: 0
     force: true
     icon: "mdi:account-voice"
