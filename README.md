@@ -57,6 +57,7 @@ Meal log ( number of portions distributed in the last programming)
 
 - HONEYGUARIDAN S56 Planning
 sensor.honeyguaridan_s56_planning
+
 Base64 CODE: https://github.com/Bellavista/Tuya-Local-Honeygaridan-S56/wiki
 
 
